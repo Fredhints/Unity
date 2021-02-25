@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!82 &146172177 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 146172177, guid: 5d6c1e90d4fbfc949879bcf019a5ef28,
-    type: 3}
-  m_PrefabInstance: {fileID: 852518967}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,18 +294,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 146172177, guid: 5d6c1e90d4fbfc949879bcf019a5ef28, type: 3}
-      propertyPath: Loop
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 146172177, guid: 5d6c1e90d4fbfc949879bcf019a5ef28, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1759450039, guid: 5d6c1e90d4fbfc949879bcf019a5ef28, type: 3}
-      propertyPath: rocketAudio
-      value: 
-      objectReference: {fileID: 146172177}
     - target: {fileID: 614958541389675162, guid: 5d6c1e90d4fbfc949879bcf019a5ef28,
         type: 3}
       propertyPath: m_Name
@@ -374,25 +356,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d6c1e90d4fbfc949879bcf019a5ef28, type: 3}
---- !u!1 &852518968 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 614958541389675162, guid: 5d6c1e90d4fbfc949879bcf019a5ef28,
-    type: 3}
-  m_PrefabInstance: {fileID: 852518967}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &852518969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852518968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f29d38e15d7d5a4a88f5d5e2f122a71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Delay: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
