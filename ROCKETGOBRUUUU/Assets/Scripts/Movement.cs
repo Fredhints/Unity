@@ -6,6 +6,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     [SerializeField] Rigidbody rb;
+    [SerializeField] AudioSource rocketAudio;
     [SerializeField] float force = 200.0f;
     [SerializeField] float rotationSpeed = 200.0f;
 
@@ -20,9 +21,16 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
+            if (!rocketAudio.isPlaying)
+            {
+                rocketAudio.Play();
+            }
             rb.AddRelativeForce(Vector3.up * Time.deltaTime * force);
         }
-
+        else
+        {
+            rocketAudio.Stop();
+        }
     }
 
 

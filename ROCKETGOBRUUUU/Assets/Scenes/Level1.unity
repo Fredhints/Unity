@@ -280,6 +280,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LauchPad
       objectReference: {fileID: 0}
+    - target: {fileID: 4978412619549061918, guid: d87824b4822198c4f8940410e5323ede,
+        type: 3}
+      propertyPath: m_TagString
+      value: Friendly
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d87824b4822198c4f8940410e5323ede, type: 3}
 --- !u!1001 &852518967
@@ -289,14 +294,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1759450038, guid: 5d6c1e90d4fbfc949879bcf019a5ef28, type: 3}
-      propertyPath: m_Drag
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1759450038, guid: 5d6c1e90d4fbfc949879bcf019a5ef28, type: 3}
-      propertyPath: m_Constraints
-      value: 56
-      objectReference: {fileID: 0}
     - target: {fileID: 614958541389675162, guid: 5d6c1e90d4fbfc949879bcf019a5ef28,
         type: 3}
       propertyPath: m_Name
@@ -526,6 +523,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce35e0d2812a7d64f96be8412861c0b5, type: 3}
+--- !u!1 &1367659479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 614958541389675162, guid: 5d6c1e90d4fbfc949879bcf019a5ef28,
+    type: 3}
+  m_PrefabInstance: {fileID: 852518967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1367659487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367659479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f29d38e15d7d5a4a88f5d5e2f122a71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2107507603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -537,6 +552,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LandingPad
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503396367505338948, guid: 15babb52a44349b4aa04e642400d4553,
+        type: 3}
+      propertyPath: m_TagString
+      value: Finish
       objectReference: {fileID: 0}
     - target: {fileID: 4556007606189428534, guid: 15babb52a44349b4aa04e642400d4553,
         type: 3}
